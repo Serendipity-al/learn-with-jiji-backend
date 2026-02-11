@@ -37,16 +37,6 @@ cd learn-with-jiji-backend
 npm install
 ```
 
-### 3. Environment Configuration
-
-Create a `.env` file in the root directory:
-```env
-SUPABASE_URL=your_supabase_project_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_KEY=your_supabase_service_role_key
-PORT=3000
-```
-
 ### 4. Database Setup
 
 Run the SQL schema provided in `schema.sql` in your Supabase SQL Editor.
